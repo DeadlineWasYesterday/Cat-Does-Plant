@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1591855023695.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AC0BA377",
+    "lastKnownWriteTime" : 8314045280926310432,
+    "last_content_update" : 1591855023695,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "8AE362EC",
+        "caption" : "genes",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=genes&cache_key=8AE362EC",
+        "displayedObservations" : "2781",
+        "environment" : "",
+        "expression" : "genes",
+        "object" : "genes",
+        "preview" : "0",
+        "totalObservations" : "2781",
+        "variables" : "12"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
