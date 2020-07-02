@@ -10,64 +10,96 @@ for (file in list.files('../Potential Salt Genes/tsnp/')) {
 #and CHR5-7474468-7477040 has no insertions
 
 
+#find files
+rapt <- read_csv('../Potential Salt Genes/Base/24200×27 first hit genelist.csv')
+
+for (file in list.files('../Potential Salt Genes/snpia/')) {
+  chr <- unlist(str_split(file, '-'))[2]
+  wps <- as.integer(unlist(str_split(file, '-'))[3])
+  end <- as.integer(unlist(str_split(file, '-'))[4])
+  
+  l1 <- rapt[which(rapt$Chromosome == chr),]
+  l2 <- l1[which(l1$`With Promoter Start` >= wps),]
+  l3 <- l2[which(l2$End <= end),]
+  check <- l3$Gene[1]
+  
+  rapt$Status[which(rapt$Gene == check)] <- 'Done.'
+   }
+
 
 #rename
-gtbl <- read_csv('../Potential Salt Genes/salty genes tr.csv', col_types = cols(.default = col_character()))
-msut <-  read_csv('../Potential Salt Genes/salty msu.csv', col_types = cols(.default = col_character()))
-gtbl <- merge(gtbl, msut %>% select(tr1 = msu, chr = chr, start = start, end = end, withpro = withpro), by = 'tr1')
-gtbl <- gtbl[!duplicated(gtbl$tr1),]
-gtbl$wGName <- unlist(lapply(gtbl$`Gene symbol synonym(s)`, str_extract, pattern = '([A-Za-z0-9])+'))
-gtbl$wGName[which(is.na(gtbl$wGName))] <- paste0('NoName', c(1:length(which(is.na(gtbl$wGName)))))
+rapt <- rapt[rapt$Status == 'Done.',]
+rapt$wGName <- unlist(lapply(rapt$`Oryzabase Gene Symbol Synonym(s)`, str_extract, pattern = '([A-Za-z0-9])+'))
+rapt$Identifier <- paste0(rapt$Chromosome, '-', rapt$`With Promoter Start`, '-', rapt$End)
+
+#remove duplicates
+#View(rapt[which(duplicated(rapt$Identifier)),])
+
+rapt <- rapt[-which(duplicated(rapt$Identifier)),] #kills the list when no duplicates
+rapt$wGName[which(is.na(rapt$wGName))] <- paste0('NoName', c(1:length(which(is.na(rapt$wGName)))))
+
+rapt$filename <- paste0(rapt$Gene, '-', rapt$Identifier, '-', rapt$wGName)
+
+#check duplicate files and delete
+files <- list.files('../Potential Salt Genes/snpia/')
+filei <- (unlist(lapply(files, str_extract, pattern = '(-.*-)')))
+fdf <- data.frame(files, filei)
+
+for (hit in fdf$files[duplicated(fdf$filei)]) {
+  file.remove(sprintf('../Potential Salt Genes/snpia/%s', hit)) }
 
 
-new <- lapply(gtbl$tr1, function(x) {
-  gname <- gtbl$wGName[gtbl$tr1 == x]
-  chr <- gtbl$chr[gtbl$tr1 == x]
-  start <- gtbl$withpro[gtbl$tr1 == x]
-  end <- gtbl$end[gtbl$tr1 == x]
-  paste(paste(chr, start, end, sep = "-"), gname, sep = ",")}
-  )
-gtbl$filename <- unlist(new)
-
-old <- list.files('../Potential Salt Genes/tsnp/')
-old <- lapply(list.files('../Potential Salt Genes/tsnp/'), function(x) {
-  old[old == x] <- paste(strsplit(x, '-')[[1]][2], strsplit(x, '-')[[1]][3], strsplit(x, '-')[[1]][4], sep = '-')
-} )
-
-#check duplicates
-files <- list.files('../Potential Salt Genes/tsnp/')
-dups <- old[duplicated(old)]
-old <- old[!duplicated(old)]
-for (dup in dups){
-  kill <- which(grepl(dup, files))[2:length(which(old == dup))]
-  for (k in kill)
-  {file.remove(sprintf('../Potential Salt Genes/tsnp/%s', files[k]))}
+rapt$MSUfilename <- ''
+#second filename column for msu files
+#needs to be run after duplicates are removed
+for (file in list.files('../Potential Salt Genes/snpia/')) {
+  chr <- unlist(str_split(file, '-'))[2]
+  wps <- as.integer(unlist(str_split(file, '-'))[3])
+  end <- as.integer(unlist(str_split(file, '-'))[4])
   
+  l1 <- rapt[which(rapt$Chromosome == chr),]
+  l2 <- l1[which(l1$`With Promoter Start` >= wps),]
+  l3 <- l2[which(l2$End <= end),]
+  check <- l3$Gene[1]
+  
+  rapt$MSUfilename[which(rapt$Gene == check)] <- file }                                        
+
+
+#rename
+for (file in rapt$MSUfilename) {
+  file.rename(from=sprintf('../Potential Salt Genes/snpia/%s', file),to=sprintf('../Potential Salt Genes/snpia/%s.csv', rapt$filename[which(rapt$MSUfilename == file)])) }
+
+
+#order 
+
+rapt <- rapt[order(rapt$Gene),]
+
+#compile columns into bfile
+bfl <- read_csv("../Potential Salt Genes/snpiaout/Os04t0473900-CHR4-23696662-23707348-DWA1.csv", col_types = cols(.default = col_character()))
+bfl <- bfl[order(bfl['Id']),]
+bfl <- bfl[c(1:5, (length(bfl)-24):(length(bfl)))]
+for (file in list.files('../Potential Salt Genes/snpiaout/')) {
+  snp <- read_csv(sprintf('../Potential Salt Genes/snpiaout/%s', file), col_types = cols(.default = col_character()))
+  snp <- snp[order(snp['Id']),]
+  if (strtrim(file, 4) == 'Os02') {
+  for (cn in 7:(length(colnames(snp)) - 25)) {
+    snips <- unlist(unique(na.omit(snp[cn])))
+    if (length(snips[!grepl('/', snips)]) > 1){
+      if (sum(colnames(bfl) == names(snp[cn])) != 0) {next}
+      bfl <- dplyr::bind_cols(bfl, snp[cn])
+    }
+    
+  }}
+  if (strtrim(file, 4) == 'Os03') {break}
 }
 
+write_csv(bfl, '../Potential Salt Genes/bfch2.csv', na = '')
 
-#rename 1
-for (file in list.files('../Potential Salt Genes/tsnp/')) {
-for (identifier in old) {
-  if (grepl(identifier, file, fixed = TRUE)) {
-    file.rename(from = sprintf('../Potential Salt Genes/tsnp/%s', file), to = sprintf('../Potential Salt Genes/tsnp/%s', identifier))
-  }
-}}
 
-  # new <- lapply(new, function(name) { 
-  # name <- gsub('\\|', '-', name)
-  # name <- gsub('\\*', '(star)', name)
-  # name <- gsub('\\/', '(slash)', name)
-  # name <- gsub('\\:', '(colon)', name)
-  # #name <- gsub('\\', '(slash2)', name)
-  # } )
 
-#rename 2
-for (file in list.files('../Potential Salt Genes/tsnp/')) {
-  for (name in new) {
-    if (grepl(file, name[1], fixed = TRUE)) {
-      file.rename(sprintf('../Potential Salt Genes/tsnp/%s', file), sprintf('../Potential Salt Genes/tsnp/%s.csv', name[1]))
-    }
-  }}
 
-write_csv(gtbl, '../Potential Salt Genes/gtbl 19cols.csv')
+#check missing rows
+for (file in list.files('../Potential Salt Genes/snpiaout/')) {
+  snp <- read_csv(sprintf('../Potential Salt Genes/snpiaout/%s', file), col_types = cols(.default = col_character()))
+  if (nrow(snp) != 175) {print(file)}
+}
