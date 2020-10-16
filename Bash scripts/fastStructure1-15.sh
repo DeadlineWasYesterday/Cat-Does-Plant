@@ -24,3 +24,6 @@ python chooseK.py --input=../fsout/WF2fs
 
 #Model complexity that maximizes marginal likelihood = 3
 #Model components used to explain structure in data = 4
+
+
+python distruct.py -K 3 --input=../fsout/WF2fs --output=../fsout/fig --title='All_accessions'
