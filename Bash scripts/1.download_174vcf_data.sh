@@ -1,5 +1,5 @@
 #!/bin/bash 
-
+#sed 's/\r//' file > file.new for dos2unix
 
 curl -0 https://s3.amazonaws.com/3kricegenome/Nipponbare/IRIS_313-11486.snp.vcf.gz --output IRIS_313-11486.snp.vcf.gz
 curl -0 https://s3.amazonaws.com/3kricegenome/Nipponbare/IRIS_313-9445.snp.vcf.gz --output IRIS_313-9445.snp.vcf.gz
@@ -87,3 +87,6 @@ curl -0 https://s3.amazonaws.com/3kricegenome/Nipponbare/IRIS_313-11402.snp.vcf.
 curl -0 https://s3.amazonaws.com/3kricegenome/Nipponbare/IRIS_313-11722.snp.vcf.gz --output IRIS_313-11722.snp.vcf.gz
 curl -0 https://s3.amazonaws.com/3kricegenome/Nipponbare/IRIS_313-9594.snp.vcf.gz --output IRIS_313-9594.snp.vcf.gz
 curl -0 https://s3.amazonaws.com/3kricegenome/Nipponbare/IRIS_313-9696.snp.vcf.gz --output IRIS_313-9696.snp.vcf.gz
+
+curl -0 https://s3.amazonaws.com/3kricegenome/Nipponbare/IRIS_313-8703.snp.vcf.gz --output IRIS_313-8703.snp.vcf.gz
+curl -0 https://s3.amazonaws.com/3kricegenome/Nipponbare/IRIS_313-8244.snp.vcf.gz --output IRIS_313-8244.snp.vcf.gz
