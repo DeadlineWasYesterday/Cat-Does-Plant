@@ -1,10 +1,10 @@
 #!/bin/bash
 
 
-#bcftools merge -f "." -m all -O z -o ../176merged.vcf *
+#bcftools merge -f "." -m all -O z -o ../176merged.vcf.gz *.vcf.gz
 
 
-bcftools merge -f "." -m all -O z -o ../176merged.vcf IRIS_313-10340.snp.vcf.gz  IRIS_313-10979.snp.vcf.gz  IRIS_313-11060.snp.vcf.gz  IRIS_313-11208.snp.vcf.gz  IRIS_313-11324.snp.vcf.gz  IRIS_313-8349.snp.vcf.gz  IRIS_313-9148.snp.vcf.gz
+bcftools merge -f "." -m all -O z -o ../176merged.vcf.gz IRIS_313-10340.snp.vcf.gz  IRIS_313-10979.snp.vcf.gz  IRIS_313-11060.snp.vcf.gz  IRIS_313-11208.snp.vcf.gz  IRIS_313-11324.snp.vcf.gz  IRIS_313-8349.snp.vcf.gz  IRIS_313-9148.snp.vcf.gz
 IRIS_313-10341.snp.vcf.gz  IRIS_313-10980.snp.vcf.gz  IRIS_313-11061.snp.vcf.gz  IRIS_313-11210.snp.vcf.gz  IRIS_313-11326.snp.vcf.gz  IRIS_313-8410.snp.vcf.gz  IRIS_313-9156.snp.vcf.gz
 IRIS_313-10537.snp.vcf.gz  IRIS_313-10981.snp.vcf.gz  IRIS_313-11062.snp.vcf.gz  IRIS_313-11211.snp.vcf.gz  IRIS_313-11399.snp.vcf.gz  IRIS_313-8437.snp.vcf.gz  IRIS_313-9170.snp.vcf.gz
 IRIS_313-10539.snp.vcf.gz  IRIS_313-10982.snp.vcf.gz  IRIS_313-11063.snp.vcf.gz  IRIS_313-11212.snp.vcf.gz  IRIS_313-11400.snp.vcf.gz  IRIS_313-8509.snp.vcf.gz  IRIS_313-9174.snp.vcf.gz
@@ -30,3 +30,6 @@ IRIS_313-10975.snp.vcf.gz  IRIS_313-11056.snp.vcf.gz  IRIS_313-11204.snp.vcf.gz 
 IRIS_313-10976.snp.vcf.gz  IRIS_313-11057.snp.vcf.gz  IRIS_313-11205.snp.vcf.gz  IRIS_313-11321.snp.vcf.gz  IRIS_313-8252.snp.vcf.gz   IRIS_313-9072.snp.vcf.gz
 IRIS_313-10977.snp.vcf.gz  IRIS_313-11058.snp.vcf.gz  IRIS_313-11206.snp.vcf.gz  IRIS_313-11322.snp.vcf.gz  IRIS_313-8283.snp.vcf.gz   IRIS_313-9108.snp.vcf.gz
 IRIS_313-10978.snp.vcf.gz  IRIS_313-11059.snp.vcf.gz  IRIS_313-11207.snp.vcf.gz  IRIS_313-11323.snp.vcf.gz  IRIS_313-8321.snp.vcf.gz   IRIS_313-9139.snp.vcf.gz
+
+
+#python Make_WF1_for_imputation.py
