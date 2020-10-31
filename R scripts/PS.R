@@ -139,3 +139,4 @@ out <- select(x, `IRIS code` = IRIS.code, `IRGC code` = IRGC.code,
               `Inferred population` = `Inferred Population`)
 out$`Inferred population`[out$`Inferred population` == 'None'] <- 'Excluded'
 
+write_csv(out, 'Figures and tables/S1 Table Vegetation and Population Structure.csv')

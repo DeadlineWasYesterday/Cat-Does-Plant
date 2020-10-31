@@ -1,0 +1,69 @@
+Trait combination,Explained variance
+"Width_WO_husk, Height_WO_husk, Seed_Weight",80
+"Width_WO_husk, Height_WO_husk, Seed_Weight, Length_WO_husk",60.4
+"Stress_Shoot_weight, Stress_Root_weight, Stress_Chlorophyll_A, SES",81.2
+"Stress_Shoot_weight, Stress_Root_weight, Stress_Shoot_length, Stress_Root_length, Stress_Chlorophyll_A, Stress_Chlorophyll_B, SES",69
+"Stress_Root_length, SES, Stress_Chlorophyll_A",65.9
+"Stress_Shoot_weight, Stress_Root_weight, Stress_Chlorophyll_A, Stress_Root_length, SES, Stress_Root_Na+",58.5
+"Stress_Chlorophyll_A, Stress_Root_length, SES, Stress_Root_Na+",49.3
+"Shoot_weight, Root_weight, Shoot_length, Root_length",68.8
+"Stress_Shoot_weight, Stress_Root_weight, Stress_Shoot_length, Stress_Root_length",73.3
+"Shoot_weight, Root_weight, Shoot_length, Root_length, Stress_Shoot_weight, Stress_Root_weight, Stress_Shoot_length, Stress_Root_length",58.3
+"Stress_Shoot_Na+, Stress_Shoot_K+, Stress_Root_Na+, Stress_Root_K+",50.6
+"Stress_Shoot_Na+, Stress_Root_Na+",54.6
+"Stress_Root_Na+, Stress_Root_K+",96.7
+"Lost_Shoot_weight, Lost_Root_weight, Lost_Shoot_length, Lost_Root_length",60.8
+"Lost_Shoot_weight, Lost_Root_weight, Lost_Shoot_length, Lost_Root_length, Lost_Chlorophyll_A, Lost_Chlorophyll_B",48.7
+"Lost_Shoot_weight, Lost_Root_weight, Lost_Chlorophyll_A, SES",51.8
+"Lost_Root_length, Lost_Chlorophyll_A, SES",61.2
+"Lost_Root_weight, Lost_Shoot_weight, Lost_Chlorophyll_A, Lost_Chlorophyll_B",57.3
+"Stress_Chlorophyll_A, Stress_Chlorophyll_B",98.1
+"Stress_Shoot_weight, Stress_Shoot_thickness",96.8
+"Seed_Weight, Seed_volume",96.8
+"Lost_Chlorophyll_A, Lost_Chlorophyll_B",96.2
+"Chlorophyll_A, Chlorophyll_B",95.2
+"Shoot_weight, Shoot_thickness",94.9
+"Lost_Shoot_weight, Lost_Shoot_thickness",93.3
+"Stress_Chlorophyll_A, Lost_Chlorophyll_A",92.8
+"Stress_Root_weight, Stress_Shoot_weight",92
+"Stress_Root_weight, Stress_Root_thickness",90.7
+"Stress_Root_weight, Stress_Shoot_thickness",90.3
+"Stress_Chlorophyll_B, Lost_Chlorophyll_A",90.1
+"Height_WO_husk, Seed_volume",89.9
+"Shoot_weight, Lost_Shoot_weight",89.7
+"Root_weight, Shoot_weight",89.6
+"Stress_Shoot_weight, SES",89.5
+"Root_weight, Root_thickness",89.2
+"SES, Stress_Shoot_thickness",88.9
+"Stress_Shoot_weight, Stress_Shoot_length",88.8
+"Stress_Shoot_weight, Stress_Chlorophyll_A",88.7
+"Stress_Chlorophyll_A, Stress_Chlorophyll_B, Lost_Chlorophyll_A, Lost_Chlorophyll_B",88.4
+"Stress_Root_weight, Stress_Shoot_weight, SES, Stress_Shoot_thickness",85.5
+"Stress_Shoot_weight, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Stress_Shoot_thickness",85.5
+"Stress_Root_weight, Stress_Shoot_weight, Stress_Root_thickness, Stress_Shoot_thickness",85
+"Stress_Shoot_weight, SES, Stress_Chlorophyll_A, Stress_Shoot_thickness",84.9
+"Stress_Root_weight, Stress_Shoot_weight, Stress_Chlorophyll_A, Stress_Shoot_thickness",84.8
+"Stress_Shoot_weight, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Lost_Chlorophyll_A",84.8
+"SES, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Lost_Chlorophyll_A",84.6
+"Stress_Chlorophyll_A, Stress_Chlorophyll_B, Stress_Shoot_thickness, Lost_Chlorophyll_A",84.3
+"Stress_Shoot_weight, SES, Stress_Chlorophyll_A, Stress_Chlorophyll_B",83.7
+"Stress_Shoot_weight, SES, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Stress_Shoot_thickness",82.8
+"SES, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Lost_Chlorophyll_A, Lost_Chlorophyll_B",82.5
+"Stress_Shoot_weight, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Stress_Shoot_thickness, Lost_Chlorophyll_A",82.4
+"Stress_Root_weight, Stress_Shoot_weight, SES, Stress_Chlorophyll_A, Stress_Shoot_thickness",82.3
+"Stress_Shoot_weight, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Lost_Chlorophyll_A, Lost_Chlorophyll_B",82.3
+"Stress_Root_weight, Stress_Shoot_weight, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Stress_Shoot_thickness",82.2
+"Stress_Chlorophyll_A, Stress_Chlorophyll_B, Stress_Shoot_thickness, Lost_Chlorophyll_A, Lost_Chlorophyll_B",82
+"Stress_Shoot_weight, SES, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Lost_Chlorophyll_A",81.6
+"Stress_Root_weight, Stress_Shoot_weight, SES, Stress_Root_thickness, Stress_Shoot_thickness",81.3
+"SES, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Stress_Shoot_thickness, Lost_Chlorophyll_A",81.2
+"Stress_Shoot_weight, SES, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Stress_Shoot_thickness, Lost_Chlorophyll_A",80.6
+"Stress_Root_weight, Stress_Shoot_weight, SES, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Stress_Shoot_thickness",80.4
+"Stress_Shoot_weight, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Stress_Shoot_thickness, Lost_Chlorophyll_A, Lost_Chlorophyll_B",79.7
+"Stress_Shoot_weight, SES, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Lost_Chlorophyll_A, Lost_Chlorophyll_B",79.4
+"Stress_Root_weight, Stress_Shoot_weight, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Stress_Shoot_thickness, Lost_Chlorophyll_A",79.3
+"SES, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Stress_Shoot_thickness, Lost_Chlorophyll_A, Lost_Chlorophyll_B",79.1
+"Stress_Root_weight, Stress_Shoot_weight, SES, Stress_Chlorophyll_A, Stress_Root_thickness, Stress_Shoot_thickness",78.7
+"Stress_Root_weight, Stress_Shoot_weight, SES, Stress_Chlorophyll_A, Stress_Shoot_thickness, Lost_Chlorophyll_A",78.7
+"Stress_Root_weight, Stress_Shoot_weight, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Stress_Root_thickness, Stress_Shoot_thickness",78.2
+"Stress_Shoot_weight, SES, Stress_Chlorophyll_A, Stress_Chlorophyll_B, Stress_Shoot_thickness, Lost_Chlorophyll_B",78.2
