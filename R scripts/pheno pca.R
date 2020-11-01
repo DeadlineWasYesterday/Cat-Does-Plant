@@ -14,7 +14,7 @@ plot(pca$x[,1], pca$x[,2])
 
 pca.var <- pca$sdev^2
 pca.var <- round(pca.var/sum(pca.var)*100, 1)
-barplot(pca.var[1:10], main = 'Scree Plot', xlab = 'Principal Component',
+barplot(pca.var[1:5], main = 'Scree Plot', xlab = 'Principal Component',
         ylab = 'Percent Variation')
 
 write_csv(df, '../Data/GWAS data/163x25 wpca.csv', na = '')
