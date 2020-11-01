@@ -60,26 +60,28 @@ def efunc(fname):
     rdf.to_csv('/home/ric/Cat-chan/rvctemp/%s.csv' %fname, index = False)  
     print('Write complete for %s.' % fname)
     
-    return 0
+    return rdf
 
 if __name__ == '__main__':
     
-#     df1 = pd.read_csv('/home/ric/Cat-chan/hqBSNP2.csv', dtype = str)
-#     df2 = pd.read_csv('/home/ric/Cat-chan/hqBSNPlel2.csv', dtype = str)
+    df1 = pd.read_csv('/home/ric/Cat-chan/WF1hqSNPa.csv', dtype = str)
+    df2 = pd.read_csv('/home/ric/Cat-chan/WF2hqSNPl.csv', dtype = str)
     
-#     lists = list(chunks(df1.index.to_list(), 30000))
+    lists = list(chunks(df1.index.to_list(), 30000))
 
-#     for lst in lists:
-#         f = open('/home/ric/Cat-chan/rcvtin/%s.pkl' %lists.index(lst), 'wb')
-#         pickle.dump((df1.iloc[lst,:].copy(),df2.iloc[lst,:].copy()), f)
-#         f.close()
+    for lst in lists:
+        f = open('/home/ric/Cat-chan/rcvtin/%s.pkl' %lists.index(lst), 'wb')
+        pickle.dump((df1.iloc[lst,:].copy(),df2.iloc[lst,:].copy()), f)
+        f.close()
 
     print('Initiating pool.')
     print('%d files.' % len(os.listdir('/home/ric/Cat-chan/rcvtin')))
     pool = Pool(processes = 15, maxtasksperchild = 30)
     
-    _ = pool.map(efunc, os.listdir('/home/ric/Cat-chan/rcvtin'))
+    rs = pool.map(efunc, os.listdir('/home/ric/Cat-chan/rcvtin'))
     
     pool.close()
     
     print('Pool closed.')
+    
+    pd.concat(rs, axis = 0).to_csv('/home/ric/Cat-chan/WF1RVC.vcf', index = False)
