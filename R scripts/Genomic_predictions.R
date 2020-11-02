@@ -8,28 +8,42 @@ library(rrBLUP)
 library(dplyr)
 
 myY <- read.table('../../Data/39transformed_WF2.txt', header = TRUE)
-myG <- read.table('../../GWAS_factory/GnQWF2/GAPIT.Genotype.Numerical.txt', header = TRUE)
+#myG <- read.table('../../GWAS_factory/GnQWF2/GAPIT.Genotype.Numerical.txt', header = TRUE)
 
-M <- as.matrix(myG[,2:length(myG)])
+myG <- read_csv('../WF2test.mat.csv', col_names = FALSE)
+M <- t(myG)
 
-myO <- myY[,1]
+#M <- as.matrix(myG[,2:length(myG)])
 
-for (i in 2:26) {
+myO <- as.data.frame(myY[,1]) 
+names(myO) <- 'accession_name'
+
+for (i in 2:40) {
+  M <- t(myG)[!is.na(myY[,i]),]
   blist <- c()
+  
+  myA <- myY[,1][!is.na(myY[,i])]
+  
   for (i2 in 1:1) {
-  pred <- mixed.solve(y = myY[,i], M)
+  pred <- mixed.solve(y = na.omit(myY[,i]), as.matrix(M))
   
   blist <- c(blist, pred$beta)
   }
   BLUE <- mean(blist)
   
   r <- M %*% pred$u
-  r <- r[,1] + BLUE
-  names(r) <- names(myY[,i])
+  #r <- r[,1] + BLUE
+  names(r) <- names(myY)[i]
   
-  myO <- dplyr::bind_cols(myO, r)
+  myA <- dplyr::bind_cols(myA, r)
+  names(myA) <- names(myY)[c(1,i)]
+  myO <- merge(myO, myA, by = 'accession_name', all = TRUE)
+  
+  print(head(myO))
   
 }
+
+write_csv(myO, 'PredSNPeffects.csv')
 
 
 # #random population of 200 lines with 1000 markers

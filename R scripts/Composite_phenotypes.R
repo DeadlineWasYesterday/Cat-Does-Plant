@@ -264,3 +264,8 @@ for (i in 2:68) {
   cdf <- merge(cdf, x, by = 'accession_name', all = TRUE)
   
 }
+
+
+write_csv(cdf, '68composite.csv')
+write.table(cdf, '68composite.txt', row.names = FALSE, sep = '\t')
+
