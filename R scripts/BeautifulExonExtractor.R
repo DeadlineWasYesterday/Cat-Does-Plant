@@ -2,8 +2,8 @@ library(seqinr)
 library(DECIPHER)
 
 
-gens <- read.fasta('../Data/RAP-DB/Putative RAPDB genes.fasta')
-cds <- read.fasta('../Data/RAP-DB/Putative RAPDB cds.fasta')
+gens <- read.fasta('../Data/RAP-DB/IRGSP-1.0_gene_2020-09-09.fasta')
+cds <- read.fasta('../Data/RAP-DB/IRGSP-1.0_cds_2020-09-09.fasta')
 
 exlist <- DNAStringSet()
 for (codseq in names(cds)) {
@@ -19,7 +19,7 @@ for (codseq in names(cds)) {
   
 }
 
-writeXStringSet(exlist, '../Data/RAP-DB/RAPDB Putative exons.fasta')
+writeXStringSet(exlist, '../Data/RAP-DB/RAPDB all exons.fasta')
 
 
 
