@@ -1,0 +1,341 @@
+Locus ID,QTL,annotation,Functionally annotated,Outlier in expression,Expression cluster
+LOC_Os01g65920,qCDP1,"F-box/LRR-repeat protein 2, putative, expressed",Yes,No,1
+LOC_Os01g66000,qCDP1,"NADH dehydrogenase I subunit N, putative, expressed",No,No,1
+LOC_Os01g66020,qCDP1,"protein kinase family protein, putative, expressed",No,No,2
+LOC_Os01g66030,qCDP1,"OsMADS2 - MADS-box family gene with MIKCc type-box, expressed",No,No,1
+LOC_Os01g66040,qCDP1,"receptor kinase, putative, expressed",No,No,1
+LOC_Os01g66050,qCDP1,"wound-responsive family protein, putative, expressed",No,No,2
+LOC_Os01g66060,qCDP1,expressed protein,No,No,3
+LOC_Os01g66100,qCDP1,"gibberellin 20 oxidase 2, putative, expressed",No,No,2
+LOC_Os01g66110,qCDP1,"methyltransferase, putative, expressed",No,No,1
+LOC_Os01g66120,qCDP1,"No apical meristem protein, putative, expressed",Yes,No,2
+LOC_Os01g66130,qCDP1,"armadillo/beta-catenin repeat family protein, putative, expressed",No,No,4
+LOC_Os01g66140,qCDP1,"plus-3 domain containing protein, putative, expressed",No,No,2
+LOC_Os01g66150,qCDP1,expressed protein,No,No,2
+LOC_Os01g66160,qCDP1,"pentatricopeptide, putative, expressed",No,No,2
+LOC_Os01g66170,qCDP1,"SNARE associated Golgi protein, putative, expressed",No,No,2
+LOC_Os01g66180,qCDP1,"cytochrome c, putative, expressed",No,No,1
+LOC_Os01g66190,qCDP1,expressed protein,No,No,1
+LOC_Os01g66200,qCDP1,expressed protein,No,No,1
+LOC_Os01g66230,qCDP1,"csAtPR5, putative, expressed",No,No,3
+LOC_Os01g66240,qCDP1,"mitochondrion protein, putative, expressed",No,No,1
+LOC_Os01g66250,qCDP1,"S-locus-like receptor protein kinase, putative, expressed",No,No,4
+LOC_Os01g66260,qCDP1,expressed protein,No,No,5
+LOC_Os01g66270,qCDP1,"AP2 domain containing protein, expressed",No,No,3
+LOC_Os01g66280,qCDP1,"transcriptional regulator, putative, expressed",No,No,1
+LOC_Os01g66290,qCDP1,"OsMADS21 - MADS-box family gene with MIKCc type-box, expressed",No,No,6
+LOC_Os01g66300,qCDP1,"KH domain containing protein, putative, expressed",No,No,1
+LOC_Os01g66310,qCDP1,expressed protein,No,No,2
+LOC_Os01g66320,qCDP1,expressed protein,No,No,1
+LOC_Os01g66350,qCDP1,"DUF647 domain containing protein, putative, expressed",Yes,No,1
+LOC_Os02g14860,qCDP2,"prefoldin subunit, putative, expressed",No,No,1
+LOC_Os02g14874,qCDP2,expressed protein,No,No,1
+LOC_Os02g14890,qCDP2,expressed protein,No,No,2
+LOC_Os02g14900,qCDP2,"1,3-beta-glucan synthase component domain containing protein, expressed",No,No,2
+LOC_Os02g14910,qCDP2,"bZIP transcription factor family protein, putative, expressed",No,No,1
+LOC_Os02g14929,qCDP2,"T-complex protein, putative, expressed",No,No,1
+LOC_Os02g14980,qCDP2,"calcium-binding EF hand family protein, putative, expressed",No,No,2
+LOC_Os02g14990,qCDP2,"zinc finger, C3HC4 type domain containing protein, expressed",No,No,1
+LOC_Os02g15020,qCDP2,"zinc finger, C3HC4 type domain containing protein, expressed",No,No,1
+LOC_Os02g15050,qCDP2,expressed protein,No,No,1
+LOC_Os02g15070,qCDP2,"glutelin, putative, expressed",Yes,Yes,1
+LOC_Os02g15090,qCDP2,"glutelin, putative, expressed",Yes,Yes,1
+LOC_Os02g15100,qCDP2,"zinc finger, C3HC4 type domain containing protein, expressed",No,No,1
+LOC_Os02g15110,qCDP2,"zinc finger, C3HC4 type domain containing protein, expressed",No,No,1
+LOC_Os02g15120,qCDP2,"RING-H2 finger protein, putative, expressed",No,No,1
+LOC_Os02g15130,qCDP2,expressed protein,No,No,5
+LOC_Os02g15150,qCDP2,"glutelin, putative, expressed",Yes,Yes,1
+LOC_Os02g15160,qCDP2,"OsFBX40 - F-box domain containing protein, expressed",No,No,1
+LOC_Os02g15178,qCDP2,"glutelin, putative, expressed",Yes,Yes,1
+LOC_Os03g03334,qCDP3,expressed protein,No,No,1
+LOC_Os03g03350,qCDP3,"polygalacturonase, putative, expressed",No,No,1
+LOC_Os03g03360,qCDP3,"ribosomal protein L5, putative, expressed",No,Yes,2
+LOC_Os03g03370,qCDP3,"fatty acid hydroxylase, putative, expressed",No,No,2
+LOC_Os03g03390,qCDP3,"G-patch domain containing protein, expressed",No,No,2
+LOC_Os03g03400,qCDP3,"diacylglycerol kinase, putative, expressed",No,No,1
+LOC_Os03g03410,qCDP3,"serine/threonine-protein kinase, putative, expressed",No,No,5
+LOC_Os03g03420,qCDP3,expressed protein,No,No,2
+LOC_Os03g03430,qCDP3,"CBS domain containing protein, expressed",No,No,1
+LOC_Os03g03440,qCDP3,expressed protein,No,No,2
+LOC_Os03g03450,qCDP3,"anthranilate phosphoribosyltransferase, chloroplast precursor, putative, expressed",No,No,1
+LOC_Os03g03460,qCDP3,"erythronate-4-phosphate dehydrogenase, putative, expressed",No,No,4
+LOC_Os03g03470,qCDP3,expressed protein,No,No,1
+LOC_Os03g03480,qCDP3,"DUF623 domain containing protein, expressed",No,No,2
+LOC_Os03g03490,qCDP3,expressed protein,No,No,1
+LOC_Os03g03500,qCDP3,"heavy metal-associated domain containing protein, expressed",No,No,2
+LOC_Os03g03510,qCDP3,"CAMK_KIN1/SNF1/Nim1_like.15 - CAMK includes calcium/calmodulin depedent protein kinases, expressed",Yes,No,2
+LOC_Os03g03520,qCDP3,expressed protein,No,No,9
+LOC_Os03g03530,qCDP3,expressed protein,No,No,1
+LOC_Os03g03540,qCDP3,"no apical meristem protein, putative, expressed",No,No,1
+LOC_Os03g03550,qCDP3,"bZIP family transcription factor, putative, expressed",No,No,1
+LOC_Os03g03560,qCDP3,"FHA domain containing protein, putative, expressed",No,No,7
+LOC_Os03g03570,qCDP3,"leucine-rich repeat transmembrane protein kinase, putative, expressed",No,No,1
+LOC_Os03g03590,qCDP3,"transporter, monovalent cation:proton antiporter-2 family, putative, expressed",Yes,No,1
+LOC_Os03g03600,qCDP3,"fasciclin-like arabinogalactan protein, putative, expressed",No,No,1
+LOC_Os03g03610,qCDP3,"1,3-beta-glucan synthase component domain containing protein, expressed",No,No,2
+LOC_Os03g03630,qCDP3,expressed protein,No,No,1
+LOC_Os03g03640,qCDP3,expressed protein,No,No,1
+LOC_Os03g03650,qCDP3,"POLD2 - Putative DNA polymerase delta complex subunit, expressed",No,No,1
+LOC_Os03g03654,qCDP3,expressed protein,No,No,1
+LOC_Os03g03700,qCDP3,"MLO domain containing protein, putative, expressed",Yes,No,1
+LOC_Os03g03720,qCDP3,"glyceraldehyde-3-phosphate dehydrogenase, putative, expressed",Yes,Yes,1
+LOC_Os03g03810,qCDP3,"DEF8 - Defensin and Defensin-like DEFL family, expressed",Yes,Yes,1
+LOC_Os03g04060,qCDP3,"CHIT16 - Chitinase family protein precursor, expressed",Yes,No,1
+LOC_Os03g04070,qCDP3,"no apical meristem protein, putative, expressed",No,No,1
+LOC_Os03g29240,qCDP4,"PDI, putative, expressed",No,No,4
+LOC_Os03g29244,qCDP4,expressed protein,No,No,1
+LOC_Os03g29250,qCDP4,"SPX domain-containing protein, putative, expressed",No,No,1
+LOC_Os03g29260,qCDP4,"elongation factor protein, putative, expressed",No,No,2
+LOC_Os03g29270,qCDP4,expressed protein,No,No,2
+LOC_Os03g29340,qCDP4,"domain of unknown function domain containing protein, expressed",No,No,1
+LOC_Os03g29350,qCDP4,"von Willebrand factor type A domain containing protein, expressed",No,No,2
+LOC_Os03g29360,qCDP4,expressed protein,No,No,1
+LOC_Os03g29410,qCDP4,"tyrosine protein kinase domain containing protein, putative, expressed",No,No,1
+LOC_Os03g29460,qCDP4,"60S ribosomal protein, putative, expressed",No,Yes,1
+LOC_Os03g29470,qCDP4,"transcription initiation factor IID, putative, expressed",No,No,10
+LOC_Os05g08730,qCDP5,"early fruit mRNA, putative, expressed",Yes,No,1
+LOC_Os05g08740,qCDP5,"hydrolase, alpha/beta fold family domain containing protein, expressed",No,No,1
+LOC_Os05g08750,qCDP5,"UDP-glucoronosyl and UDP-glucosyl transferase domain containing protein, expressed",No,No,10
+LOC_Os05g08770,qCDP5,"uncharacterized protein At4g06744 precursor, putative, expressed",No,No,2
+LOC_Os05g08790,qCDP5,"MAR-binding filament-like protein 1, putative, expressed",No,No,2
+LOC_Os05g08800,qCDP5,"DUF581 domain containing protein, expressed",No,No,5
+LOC_Os05g08810,qCDP5,"phosphatidylinositol 3-kinase, root isoform, putative, expressed",No,No,1
+LOC_Os05g08820,qCDP5,expressed protein,No,No,2
+LOC_Os05g08830,qCDP5,expressed protein,No,No,1
+LOC_Os05g08840,qCDP5,"DnaK family protein, putative, expressed",No,No,1
+LOC_Os05g08850,qCDP5,"cytochrome P450, putative, expressed",No,No,1
+LOC_Os05g08854,qCDP5,expressed protein,No,No,1
+LOC_Os05g08860,qCDP5,expressed protein,No,No,1
+LOC_Os05g08890,qCDP5,"transposable element protein, putative, containing Pfam profile: PF03108, MuDR, expressed",No,No,2
+LOC_Os05g08900,qCDP5,expressed protein,No,No,2
+LOC_Os05g08910,qCDP5,expressed protein,No,No,2
+LOC_Os05g08920,qCDP5,"late embryogenesis abundant protein, putative, expressed",Yes,No,1
+LOC_Os05g08930,qCDP5,"chloroplast lumen common family protein, putative, expressed",No,No,1
+LOC_Os05g08950,qCDP5,"phosphoribosyl transferase, putative, expressed",No,No,1
+LOC_Os05g08960,qCDP5,"ubiquitin-conjugating enzyme, putative, expressed",No,No,2
+LOC_Os05g30280,qCDP6,"Os5bglu20 - beta-glucosidase homologue, similar to G. max isohydroxyurate hydrolase, expressed",No,No,8
+LOC_Os05g30300,qCDP6,"Os5bglu21 - beta-glucosidase homologue, similar to G. max isohydroxyurate hydrolase, expressed",No,No,2
+LOC_Os05g30320,qCDP6,"6-phospho-beta-galactosidase, putative, expressed",No,No,1
+LOC_Os05g30340,qCDP6,expressed protein,No,No,2
+LOC_Os05g30350,qCDP6,"Os5bglu22 - beta-glucosidase homologue, similar to G. max isohydroxyurate hydrolase, expressed",No,No,1
+LOC_Os05g30390,qCDP6,"Os5bglu23 - beta-glucosidase homologue, similar to G. max isohydroxyurate hydrolase, likely pseudogene in japonica, expressed",No,No,2
+LOC_Os05g30400,qCDP6,expressed protein,No,No,2
+LOC_Os05g30410,qCDP6,"PHF5-like protein domain containing protein, expressed",No,No,1
+LOC_Os05g30420,qCDP6,expressed protein,No,No,4
+LOC_Os05g30430,qCDP6,expressed protein,No,No,7
+LOC_Os05g30454,qCDP6,"thiamin pyrophosphokinase 1, putative, expressed",No,No,1
+LOC_Os05g30470,qCDP6,"collagen alpha-1, putative, expressed",No,No,1
+LOC_Os05g30480,qCDP6,"DnaK family protein, putative, expressed",No,No,1
+LOC_Os05g30490,qCDP6,"harpin-induced protein 1 domain containing protein, expressed",No,No,2
+LOC_Os05g30500,qCDP6,expressed protein,No,No,1
+LOC_Os05g30510,qCDP6,expressed protein,No,No,1
+LOC_Os05g30530,qCDP6,"40S ribosomal protein S4, putative, expressed",No,No,1
+LOC_Os05g30570,qCDP6,"heavy metal-associated domain containing protein, expressed",No,No,2
+LOC_Os05g30580,qCDP6,"OsSub46 - Putative Subtilisin homologue, expressed",No,No,1
+LOC_Os06g35410,qCDP7,"growth regulator related protein, putative, expressed",Yes,No,1
+LOC_Os06g35470,qCDP7,"L1P family of ribosomal proteins domain containing protein, expressed",No,No,1
+LOC_Os06g35480,qCDP7,"peroxidase precursor, putative, expressed",No,No,2
+LOC_Os06g35490,qCDP7,"peroxidase precursor, putative, expressed",No,No,4
+LOC_Os06g35520,qCDP7,"peroxidase precursor, putative, expressed",Yes,No,1
+LOC_Os06g35524,qCDP7,expressed protein,No,No,1
+LOC_Os06g35530,qCDP7,"CGMC_GSK.8 - CGMC includes CDA, MAPK, GSK3, and CLKC kinases, expressed",Yes,No,2
+LOC_Os06g35540,qCDP7,"aminotransferase, classes I and II, domain containing protein, expressed",No,No,5
+LOC_Os06g35560,qCDP7,"reticuline oxidase-like protein precursor, putative, expressed",No,No,1
+LOC_Os06g35574,qCDP7,"mki67 protein, putative, expressed",Yes,No,1
+LOC_Os06g35590,qCDP7,"reticuline oxidase-like protein precursor, putative, expressed",No,No,2
+LOC_Os06g35630,qCDP7,"reticuline oxidase-like protein precursor, putative, expressed",No,No,2
+LOC_Os06g35650,qCDP7,"reticuline oxidase-like protein precursor, putative, expressed",No,No,2
+LOC_Os06g35660,qCDP7,"reticuline oxidase-like protein precursor, putative, expressed",No,No,1
+LOC_Os06g35670,qCDP7,expressed protein,No,No,5
+LOC_Os06g35700,qCDP7,"reticuline oxidase-like protein precursor, putative, expressed",No,No,1
+LOC_Os06g35730,qCDP7,"ribosomal protein L5, putative, expressed",No,No,1
+LOC_Os06g35740,qCDP7,expressed protein,No,No,1
+LOC_Os07g36460,qCDP8,"helix-loop-helix DNA-binding domain containing protein, expressed",No,No,3
+LOC_Os07g36465,qCDP8,"vacuolar ATP synthase subunit H, putative, expressed",No,No,1
+LOC_Os07g36470,qCDP8,"vacuolar ATP synthase subunit H, putative, expressed",No,No,2
+LOC_Os07g36490,qCDP8,"RNA recognition motif containing protein, putative, expressed",No,No,3
+LOC_Os07g36500,qCDP8,"Core histone H2A/H2B/H3/H4 domain containing protein, putative, expressed",No,No,2
+LOC_Os07g36544,qCDP8,"serine/threonine-protein kinase receptor precursor, putative, expressed",No,No,1
+LOC_Os07g36560,qCDP8,"transferase family protein, putative, expressed",No,No,1
+LOC_Os07g36570,qCDP8,"KI domain interacting kinase 1, putative, expressed",No,No,2
+LOC_Os07g36590,qCDP8,"serine/threonine-protein kinase receptor precursor, putative, expressed",No,No,1
+LOC_Os07g36600,qCDP8,"universal stress protein domain containing protein, putative, expressed",No,No,2
+LOC_Os07g36610,qCDP8,"CSLF9 - cellulose synthase-like family F; beta1,3;1,4 glucan synthase, expressed",No,No,3
+LOC_Os07g36630,qCDP8,"CSLF8 - cellulose synthase-like family F; beta1,3;1,4 glucan synthase, expressed",No,No,5
+LOC_Os07g36680,qCDP8,expressed protein,No,No,1
+LOC_Os07g36690,qCDP8,"CSLF2 - cellulose synthase-like family F; beta1,3;1,4 glucan synthase, expressed",No,No,1
+LOC_Os07g36700,qCDP8,"CSLF1 - cellulose synthase-like family F; beta1,3;1,4 glucan synthase, expressed",No,No,2
+LOC_Os07g36740,qCDP8,"CSLF4 - cellulose synthase-like family F; beta1,3;1,4 glucan synthase, expressed",Yes,No,2
+LOC_Os07g37030,qCDP8,"cytochrome b6-f complex iron-sulfur subunit, chloroplast precursor, putative, expressed",Yes,Yes,4
+LOC_Os07g37210,qCDP8,"MYB family transcription factor, putative, expressed",Yes,No,1
+LOC_Os07g37240,qCDP8,"chlorophyll A-B binding protein, putative, expressed",Yes,Yes,2
+LOC_Os07g37580,qCDP8,"diacylglycerol kinase, putative, expressed",No,No,5
+LOC_Os07g37610,qCDP8,"B3 DNA binding domain containing protein, putative, expressed",Yes,No,2
+LOC_Os07g37640,qCDP8,"IKI3 family protein, expressed",Yes,No,1
+LOC_Os08g43070,qCDP9,"helix-loop-helix DNA-binding domain containing protein, expressed",No,No,5
+LOC_Os08g43080,qCDP9,"POLD4B - Putative DNA polymerase delta complex subunit, expressed",No,No,5
+LOC_Os08g43090,qCDP9,"bZIP family transcription factor, putative, expressed",No,No,1
+LOC_Os08g43120,qCDP9,"Plant PDR ABC transporter associated domain containing protein, expressed",No,No,1
+LOC_Os08g43130,qCDP9,"NAP1, putative, expressed",Yes,No,2
+LOC_Os08g43140,qCDP9,expressed protein,No,No,9
+LOC_Os08g43150,qCDP9,expressed protein,No,No,8
+LOC_Os08g43160,qCDP9,"TCP family transcription factor, putative, expressed",No,No,1
+LOC_Os08g43170,qCDP9,"hydroxymethylglutaryl-CoA synthase, putative, expressed",No,No,1
+LOC_Os08g43180,qCDP9,expressed protein,No,No,5
+LOC_Os08g43190,qCDP9,"dehydrogenase, putative, expressed",No,Yes,5
+LOC_Os08g43200,qCDP9,"dehydration-responsive element-binding protein, putative, expressed",Yes,No,5
+LOC_Os08g43210,qCDP9,"AP2 domain containing protein, expressed",No,No,2
+LOC_Os08g43230,qCDP9,"TraB family protein, putative, expressed",No,No,1
+LOC_Os08g43240,qCDP9,"LTPL97 - Protease inhibitor/seed storage/LTP family protein precursor, expressed",No,No,8
+LOC_Os08g43250,qCDP9,"MATE efflux family protein, putative, expressed",No,No,1
+LOC_Os08g43270,qCDP9,"BAG domain-containing protein, putative, expressed",No,No,2
+LOC_Os08g43290,qCDP9,"LTPL44 - Protease inhibitor/seed storage/LTP family protein precursor, expressed",No,No,1
+LOC_Os08g43300,qCDP9,"UBX domain-containing protein, putative, expressed",No,No,3
+LOC_Os08g43310,qCDP9,"PE-PGRS FAMILY PROTEIN, putative, expressed",No,No,4
+LOC_Os08g43320,qCDP9,"OsRhmbd14 - Putative Rhomboid homologue, expressed",No,No,1
+LOC_Os08g43334,qCDP9,"HSF-type DNA-binding domain containing protein, expressed",No,No,9
+LOC_Os08g43350,qCDP9,"NC domain-containing protein, putative, expressed",No,No,4
+LOC_Os08g43360,qCDP9,"RNA recognition motif containing protein, putative, expressed",No,No,5
+LOC_Os08g43370,qCDP9,"6-phosphogluconolactonase, putative, expressed",Yes,No,9
+LOC_Os08g43380,qCDP9,"TBC domain containing protein, expressed",No,No,3
+LOC_Os08g43410,qCDP9,"LRP1, putative, expressed",Yes,No,3
+LOC_Os09g15320,qCDP10,"ubiquitin-conjugating enzyme, putative, expressed",No,No,1
+LOC_Os09g15330,qCDP10,"transporter family protein, putative, expressed",No,No,1
+LOC_Os09g15340,qCDP10,"hydrolase, NUDIX family, domain containing protein, expressed",No,No,1
+LOC_Os09g15350,qCDP10,expressed protein,No,No,2
+LOC_Os09g15370,qCDP10,expressed protein,No,No,2
+LOC_Os09g15389,qCDP10,expressed protein,No,No,1
+LOC_Os09g15400,qCDP10,"inositol monophosphatase family protein, putative, expressed",No,No,1
+LOC_Os09g15420,qCDP10,"NAD dependent epimerase/dehydratase family protein, putative, expressed",No,No,2
+LOC_Os09g15430,qCDP10,"zinc finger family protein, putative, expressed",No,No,1
+LOC_Os09g15480,qCDP10,"Ser/Thr-rich protein T10 in DGCR region, putative, expressed",No,No,2
+LOC_Os09g15500,qCDP10,"peroxidase precursor, putative, expressed",No,No,1
+LOC_Os09g15520,qCDP10,"oleosin, putative, expressed",Yes,No,4
+LOC_Os09g15530,qCDP10,expressed protein,No,No,5
+LOC_Os09g15540,qCDP10,"OsFBX312 - F-box domain containing protein, expressed",No,No,1
+LOC_Os09g15570,qCDP10,"OsFBX315 - F-box domain containing protein, expressed",No,No,2
+LOC_Os09g15580,qCDP10,expressed protein,No,No,9
+LOC_Os09g15590,qCDP10,"OsFBX316 - F-box domain containing protein, expressed",No,No,10
+LOC_Os09g18450,qCDP11,"flavonol synthase/flavanone 3-hydroxylase, putative, expressed",No,No,1
+LOC_Os09g18470,qCDP11,"oxidoreductase, 2OG-Fe oxygenase family protein, putative, expressed",No,No,1
+LOC_Os09g18560,qCDP11,expressed protein,No,No,1
+LOC_Os09g18594,qCDP11,"protein kinase domain containing protein, expressed",No,No,1
+LOC_Os09g19160,qCDP11,"serine/threonine-protein kinase, putative, expressed",No,No,2
+LOC_Os09g19170,qCDP11,expressed protein,No,No,1
+LOC_Os09g19229,qCDP11,"protein kinase domain containing protein, expressed",No,No,4
+LOC_Os09g19274,qCDP11,expressed protein,No,No,2
+LOC_Os09g34150,qCDP12,"NBS-LRR disease resistance protein, putative, expressed",No,No,1
+LOC_Os09g34160,qCDP12,"resistance protein, putative, expressed",No,No,5
+LOC_Os09g34180,qCDP12,"formin, putative, expressed",No,No,3
+LOC_Os09g34190,qCDP12,"acyl-coenzyme A thioesterase 10, mitochondrial precursor, putative, expressed",No,No,1
+LOC_Os09g34200,qCDP12,"OsFBX338 - F-box domain containing protein, expressed",No,No,3
+LOC_Os09g34214,qCDP12,"UDP-glucoronosyl and UDP-glucosyl transferase domain containing protein, expressed",No,No,1
+LOC_Os09g34230,qCDP12,"UDP-glucoronosyl/UDP-glucosyl transferase, putative, expressed",No,No,2
+LOC_Os09g34250,qCDP12,"UDP-glucoronosyl and UDP-glucosyl transferase domain containing protein, expressed",No,No,2
+LOC_Os09g34270,qCDP12,"UDP-glucoronosyl and UDP-glucosyl transferase domain containing protein, expressed",No,No,6
+LOC_Os09g34280,qCDP12,"ankyrin repeat-containing protein, putative, expressed",No,No,4
+LOC_Os09g34300,qCDP12,"Inositol 1, 3, 4-trisphosphate 5/6-kinase, putative, expressed",No,No,1
+LOC_Os09g34310,qCDP12,expressed protein,No,No,1
+LOC_Os09g34320,qCDP12,expressed protein,No,No,1
+LOC_Os09g34330,qCDP12,"helix-loop-helix DNA-binding domain containing protein, expressed",No,No,2
+LOC_Os09g34340,qCDP12,expressed protein,No,No,2
+LOC_Os09g34847,qCDP12,expressed protein,No,No,1
+LOC_Os09g34850,qCDP12,"POLD4A - Putative DNA polymerase delta complex subunit, expressed",No,No,1
+LOC_Os09g34860,qCDP12,"hydrolase, alpha/beta fold family domain containing protein, expressed",No,No,1
+LOC_Os09g34870,qCDP12,"pentatricopeptide, putative, expressed",No,No,2
+LOC_Os09g34880,qCDP12,"basic region leucine zipper domain containing protein, expressed",No,No,2
+LOC_Os09g34890,qCDP12,expressed protein,No,No,2
+LOC_Os09g34900,qCDP12,"bile acid sodium symporter family protein, putative, expressed",No,No,5
+LOC_Os09g34910,qCDP12,"DEAD-box ATP-dependent RNA helicase 7, putative, expressed",No,No,1
+LOC_Os09g34920,qCDP12,"glycosyl hydrolase family 29, putative, expressed",No,No,1
+LOC_Os09g34930,qCDP12,"3-ketoacyl-CoA synthase precursor, putative, expressed",No,No,1
+LOC_Os09g34950,qCDP12,"TCP family transcription factor, putative, expressed",No,No,2
+LOC_Os09g34960,qCDP12,"hydroxymethylglutaryl-CoA synthase, putative, expressed",No,No,1
+LOC_Os09g35010,qCDP12,"dehydration-responsive element-binding protein, putative, expressed",No,No,2
+LOC_Os10g34680,qCDP13,"vacuolar protein sorting-associated protein 52, putative, expressed",Yes,No,1
+LOC_Os10g34720,qCDP13,"LOI1, putative, expressed",No,No,1
+LOC_Os10g34730,qCDP13,"GEM, putative, expressed",No,No,5
+LOC_Os10g34740,qCDP13,"methyltransferase, putative, expressed",No,No,2
+LOC_Os10g34750,qCDP13,"LIG1 - Putative DNA ligase I, expressed",No,No,2
+LOC_Os10g34790,qCDP13,"terpene synthase, putative, expressed",No,No,1
+LOC_Os10g34795,qCDP13,expressed protein,No,No,1
+LOC_Os10g34810,qCDP13,expressed protein,No,No,5
+LOC_Os10g34820,qCDP13,"CDT1B - Putative DNA replication initiation protein, expressed",No,No,1
+LOC_Os10g34840,qCDP13,"RIPER6 - Ripening-related family protein precursor, expressed",No,No,1
+LOC_Os10g34884,qCDP13,"RIPER7 - Ripening-related family protein precursor, expressed",No,No,2
+LOC_Os10g34910,qCDP13,"secretory protein, putative, expressed",No,No,1
+LOC_Os10g34920,qCDP13,"secretory protein, putative, expressed",No,No,6
+LOC_Os10g34930,qCDP13,"secretory protein, putative, expressed",Yes,No,1
+LOC_Os10g34940,qCDP13,expressed protein,No,No,1
+LOC_Os10g34960,qCDP13,"ubiquitin family protein, putative, expressed",No,No,5
+LOC_Os10g35000,qCDP13,"G-patch domain containing protein, expressed",No,No,1
+LOC_Os10g35010,qCDP13,"ATTIC110/TIC110, putative, expressed",No,No,1
+LOC_Os10g35020,qCDP13,"glycosyltransferase, putative, expressed",No,No,1
+LOC_Os10g35030,qCDP13,"IAP100, putative, expressed",Yes,Yes,1
+LOC_Os10g35040,qCDP13,"receptor kinase like protein, putative, expressed",No,No,1
+LOC_Os10g35050,qCDP13,"aquaporin protein, putative, expressed",No,Yes,1
+LOC_Os10g35060,qCDP13,"Ser/Thr protein phosphatase family protein, putative, expressed",No,No,9
+LOC_Os10g35070,qCDP13,"alpha-galactosidase precursor, putative, expressed",No,No,9
+LOC_Os10g35090,qCDP13,"Rf1, mitochondrial precursor, putative, expressed",No,No,1
+LOC_Os10g35100,qCDP13,expressed protein,No,No,1
+LOC_Os10g35110,qCDP13,"alpha-galactosidase precursor, putative, expressed",Yes,No,1
+LOC_Os10g35180,qCDP13,"white-brown complex homolog protein 11, putative, expressed",Yes,No,1
+LOC_Os11g26600,qCDP14,"MEGL3 - Maternally expressed gene MEG family protein precursor, putative, expressed",No,No,3
+LOC_Os11g26620,qCDP14,expressed protein,No,No,1
+LOC_Os11g26710,qCDP14,"MEGL5 - Maternally expressed gene MEG family protein precursor, putative, expressed",No,No,7
+LOC_Os11g26720,qCDP14,expressed protein,No,No,1
+LOC_Os11g26725,qCDP14,expressed protein,No,No,1
+LOC_Os11g26750,qCDP14,"dehydrin, putative, expressed",No,No,1
+LOC_Os11g26760,qCDP14,"dehydrin, putative, expressed",No,No,2
+LOC_Os11g26780,qCDP14,"dehydrin, putative, expressed",No,No,7
+LOC_Os11g26790,qCDP14,"dehydrin, putative, expressed",Yes,Yes,1
+LOC_Os11g26830,qCDP14,"ATP-binding region, ATPase-like domain containing protein, expressed",No,No,7
+LOC_Os11g26850,qCDP14,"erythronate-4-phosphate dehydrogenase, putative, expressed",yes,Yes,1
+LOC_Os11g26860,qCDP14,"serine hydroxymethyltransferase, mitochondrial precursor, putative, expressed",No,Yes,1
+LOC_Os12g05990,qCDP15,"No apical meristem protein, putative, expressed",No,No,1
+LOC_Os12g06020,qCDP15,"mRNA-decapping enzyme, putative, expressed",No,No,2
+LOC_Os12g06030,qCDP15,"OsFBX439 - F-box domain containing protein, expressed",No,No,2
+LOC_Os12g06060,qCDP15,"amino acid permease family protein, putative, expressed",No,No,3
+LOC_Os12g06070,qCDP15,expressed protein,No,No,1
+LOC_Os12g06080,qCDP15,expressed protein,No,No,2
+LOC_Os12g06090,qCDP15,expressed protein,No,No,1
+LOC_Os12g06100,qCDP15,"TLD family protein, putative, expressed",No,No,1
+LOC_Os12g06130,qCDP15,expressed protein,No,No,1
+LOC_Os12g06150,qCDP15,"DUF623 domain containing protein, expressed",No,No,5
+LOC_Os12g06160,qCDP15,"DUF623 domain containing protein, expressed",No,No,1
+LOC_Os12g06180,qCDP15,"HVA22, putative, expressed",No,No,4
+LOC_Os12g06190,qCDP15,expressed protein,No,No,1
+LOC_Os12g06200,qCDP15,"E2F family transcription factor protein, putative, expressed",No,No,1
+LOC_Os12g06210,qCDP15,"harpin-induced protein 1 domain containing protein, expressed",No,No,6
+LOC_Os12g06220,qCDP15,"harpin-induced protein 1 domain containing protein, expressed",No,No,1
+LOC_Os12g27994,qCDP16,expressed protein,No,No,1
+LOC_Os12g28015,qCDP16,expressed protein,No,No,1
+LOC_Os12g28065,qCDP16,expressed protein,No,No,1
+LOC_Os12g28090,qCDP16,expressed protein,No,No,2
+LOC_Os12g28100,qCDP16,"NBS-LRR disease resistance protein, putative, expressed",Yes,No,3
+LOC_Os12g28137,qCDP16,"ATPase 3, putative, expressed",No,No,1
+LOC_Os12g28177,qCDP16,"ATPase 3, putative, expressed",No,No,1
+LOC_Os12g28250,qCDP16,"disease resistance protein RPM1, putative, expressed",Yes,No,2
+LOC_Os12g28260,qCDP16,"cyclic nucleotide-gated ion channel, putative, expressed",Yes,No,1
+LOC_Os12g41380,qCDP17,"ulp1 protease family protein, putative, expressed",Yes,No,1
+LOC_Os12g41450,qCDP17,"F-box domain containing protein, expressed",No,No,1
+LOC_Os12g41460,qCDP17,expressed protein,No,No,2
+LOC_Os12g41490,qCDP17,"cysteine-rich receptor-like protein kinase 8 precursor, putative, expressed",No,No,2
+LOC_Os12g41500,qCDP17,"rhodanese-like domain containing protein, putative, expressed",No,No,2
+LOC_Os12g41510,qCDP17,"cysteine-rich receptor-like protein kinase 31 precursor, putative, expressed",No,No,1
+LOC_Os12g41550,qCDP17,expressed protein,No,No,1
+LOC_Os12g41560,qCDP17,expressed protein,No,No,1
+LOC_Os12g41590,qCDP17,"oxidoreductase, short chain dehydrogenase/reductase family domain containing protein, expressed",No,No,1
+LOC_Os12g41600,qCDP17,"OsSAUR57 - Auxin-responsive SAUR gene family member, expressed",No,No,1
+LOC_Os12g41620,qCDP17,"WD domain, G-beta repeat domain containing protein, expressed",No,No,1
+LOC_Os12g41630,qCDP17,"OsFBX463 - F-box domain containing protein, expressed",No,No,2
+LOC_Os12g41640,qCDP17,expressed protein,No,No,1
+LOC_Os12g41650,qCDP17,"helix-loop-helix DNA-binding domain containing protein, expressed",Yes,No,1
+LOC_Os12g41660,qCDP17,expressed protein,No,No,1
+LOC_Os12g41670,qCDP17,expressed protein,No,No,5
+LOC_Os12g41680,qCDP17,"No apical meristem protein, putative, expressed",No,No,1
+LOC_Os12g41690,qCDP17,"membrane associated DUF588 domain containing protein, putative, expressed",No,No,1
+LOC_Os12g41700,qCDP17,"LSD1 zinc finger domain containing protein, expressed",Yes,No,1
+LOC_Os12g41710,qCDP17,"Protein kinase domain containing protein, expressed",No,No,2
+LOC_Os12g41715,qCDP17,"DEAD-box ATP-dependent RNA helicase, putative, expressed",No,No,1
+LOC_Os12g41720,qCDP17,"PLA IIIA/PLP7, putative, expressed",No,No,1

@@ -1,0 +1,32 @@
+QTL,Chromosome,Peak SNP position,Peak SNP position from reference,Trait,Study,DOI
+qCDP1,1,38423605,"S1_38286772
+S1_38611845","Shoot length-IM, Shoot-root ratio-IM",De Leon et al. Rice (2016) 9:52,https://doi.org/10.1186/s12284-016-0125-2
+qCDP1,1,38423605,"S1_38794029
+S1_39047133",K+ concentration-ICIM,De Leon et al. Rice (2016) 9:52,https://doi.org/10.1186/s12284-016-0125-2
+qCDP7,1,20760852,"S6_20929261
+S6_20929283",Salt injury score-ICIM,De Leon et al. Rice (2016) 9:52,https://doi.org/10.1186/s12284-016-0125-2
+qCDP9,8,27323749,"S8_27238050
+S8_27304101",Root length-IM,De Leon et al. Rice (2016) 9:52,https://doi.org/10.1186/s12284-016-0125-2
+qCDP17,12,25769505,"S12_25709174
+S12_25887173",Shoot length-ICIM,De Leon et al. Rice (2016) 9:52,https://doi.org/10.1186/s12284-016-0125-2
+qCDP1,1,20760852,38808536,RTW,Mai et al. 2020,https://doi.org/10.1101/2020.10.31.363556
+qCDP6,5,17632907,17325094,RTL,Mai et al. 2020,https://doi.org/10.1101/2020.10.31.363556
+qCDP1,1,38423605,38490041,SHW/TTW,To et al. Rice (2019) 12:69,https://doi.org/10.1186/s12284-019-0327-5
+qCDP15,12,2854998,2812596,SHW/ SHL,To et al. Rice (2019) 12:69,https://doi.org/10.1186/s12284-019-0327-5
+qCDP1,1,38423605,38.11–38.54,SH,Zhang et al. BMC Genomics (2017) 18:828,https://doi.org/10.1186/s12864-017-4221-5
+qCDP1,1,38423605,37.93–38.73,SH,Tao et al. 2018,https://doi.org/10.1371/journal.pone.0198589
+qCDP1,1,38423605,38254634,RDSW,Zhang et al. 2020,https://doi.org/10.1007/s10725-020-00644-x
+qCDP4,3,16733441,16733441,"Grain_shape, Grain_length, Grain_width",Misra et al. 2017,https://doi.org/10.1038/s41598-017-12778-6
+qCDP5,5,4865065,"4,907,158",Grain width,Huang et al. 2010,http://www.nature.com/doifinder/10.1038/ng.695
+qCDP6,5,17632907,17491701,TDW,Yu et al. 2017,https://doi.org/10.1007/s00438-017-1354-9
+qCDP8,7,21913935,21649301,SSI_IR_48h,Cui et al. 2018,https://doi.org/10.3389/fpls.2018.01464
+qCDP11,9,11455731,11450011,SSI_MGT,Cui et al. 2018,https://doi.org/10.3389/fpls.2018.01464
+qCDP8,7,21913935,22274975,iLL,Frouin et al. 2018,https://doi.org/10.1371/journal.pone.0190964
+qCDP8,7,21913935,22274975,ROOT,Frouin et al. 2018,https://doi.org/10.1371/journal.pone.0190964
+qCDP9,8,27323749,27352942,"K, Na_K",Frouin et al. 2018,https://doi.org/10.1371/journal.pone.0190964
+qCDP8,7,21913935,22015077,"Biomass, PW, GY",Diop et al. 2020,https://doi.org/10.1093/jxb/eraa182
+qCDP9,8,27323749,27353014,KSterBase,Dingkuhn et al. 2017,https://doi.org/10.1093/jxb/erx250
+qCDP9,8,27323749,S8_2208918 - S8_2913918,Xoo PXO99A-pHM1-tal7b resistance,Delorean et al. 2016,
+qCDP10,9,9438999,9.4,Low temperature seedling survivability (LTSS),Schläppi et al. 2017,https://doi.org/10.3389/fpls.2017.00957
+qCDP17,12,25769505,25,"Low temperature seedling survivability (LTSS), Low temperature survival (LTS)",Schläppi et al. 2017,https://doi.org/10.3389/fpls.2017.00957
+qCDP13,10,18641874,"18,801,757","SSI score, ? PHT, ? green leaf#, biomass",Rohila et al. 2019,https://doi.org/10.3390/plants8110472
