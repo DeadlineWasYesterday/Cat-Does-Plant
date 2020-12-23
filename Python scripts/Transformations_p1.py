@@ -1,3 +1,6 @@
+#Run to make shell script that will execute warpedlmm consecutively for each trait.
+#Phenotype file has been hardcoded.
+
 import numpy as np
 import pandas as pd
 import os, sys

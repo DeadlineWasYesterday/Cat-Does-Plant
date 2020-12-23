@@ -1,3 +1,7 @@
+#This script houses the python code for running transformations by WarpedLMM.
+#Run transformations_p1 to create the bash script, run it and 
+#then run p2 to compile the results.
+
 import numpy as np
 import pandas as pd
 import os, sys

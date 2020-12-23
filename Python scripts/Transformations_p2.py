@@ -1,3 +1,5 @@
+#After warpedlmm has done its thing, run to compile the results into one file.
+
 import numpy as np
 import pandas as pd
 import os, sys

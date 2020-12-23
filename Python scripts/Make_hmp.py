@@ -1,3 +1,8 @@
+#converts .vcf to .hmp.txt format for GAPIT
+#can be run directly
+#example command 'python Make_hmp.py ../Data/WF2.vcf ../Data/WF2'
+#note that first arg has the .vcf file extension, second part does not need one.
+
 import numpy as np
 import pandas as pd
 import sys, io 
@@ -63,4 +68,4 @@ if __name__ == '__main__':
     np.savetxt('%s.hmp.txt' %sys.argv[2], df2.fillna('NA').values, fmt = '%s', delimiter="\t")
     
     
-#python Make_hmp.py ../Data/WF2.vcf ../Data/WF2
+

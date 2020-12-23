@@ -1,3 +1,5 @@
+#Using qqman to plot GWAS results
+
 library(qqman)
 library(tidyverse)
 
