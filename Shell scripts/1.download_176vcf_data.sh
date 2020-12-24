@@ -1,4 +1,6 @@
-#!/bin/bash 
+#!/bin/bash
+
+##use to convert windows style line endings to unix 
 #sed 's/\r//' file > file.new for dos2unix
 
 curl -0 https://s3.amazonaws.com/3kricegenome/Nipponbare/IRIS_313-10340.snp.vcf.gz --output IRIS_313-10340.snp.vcf.gz

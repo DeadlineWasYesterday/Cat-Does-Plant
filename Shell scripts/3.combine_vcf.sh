@@ -30,6 +30,3 @@ IRIS_313-10975.snp.vcf.gz  IRIS_313-11056.snp.vcf.gz  IRIS_313-11204.snp.vcf.gz 
 IRIS_313-10976.snp.vcf.gz  IRIS_313-11057.snp.vcf.gz  IRIS_313-11205.snp.vcf.gz  IRIS_313-11321.snp.vcf.gz  IRIS_313-8252.snp.vcf.gz   IRIS_313-9072.snp.vcf.gz
 IRIS_313-10977.snp.vcf.gz  IRIS_313-11058.snp.vcf.gz  IRIS_313-11206.snp.vcf.gz  IRIS_313-11322.snp.vcf.gz  IRIS_313-8283.snp.vcf.gz   IRIS_313-9108.snp.vcf.gz
 IRIS_313-10978.snp.vcf.gz  IRIS_313-11059.snp.vcf.gz  IRIS_313-11207.snp.vcf.gz  IRIS_313-11323.snp.vcf.gz  IRIS_313-8321.snp.vcf.gz   IRIS_313-9139.snp.vcf.gz
-
-
-#python Make_WF1_for_imputation.py
