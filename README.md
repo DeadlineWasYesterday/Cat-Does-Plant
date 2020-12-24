@@ -1,4 +1,4 @@
-## Comprehensive analysis and GWAS of biomass, chlorophyll, seed and salinity tolerance related traits in rice
+## Comprehensive analysis and GWAS of biomass, chlorophyll, seed and salinity tolerance related traits in rice :ear_of_rice: :paw_prints:
 ### Section 1: phenotype processing
 - Notebooks/Phenotypes_compilation.ipynb :arrow_right: Prepares working genotype means from plant data
 - Notebooks/Phenotype_stats.ipynb :arrow_right: Basic analytics on phenotypes i.e. histograms, density plots, Shapiro-tests
